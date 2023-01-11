@@ -33,7 +33,7 @@ function nextQuestion(choiceNumber) {
 
 //결과 페이지를 보여주는 함수
 function showResultPage() {
-    location.href = '/results.html?mbti=' + mbti; //쿼리 스트링
+    location.href = './results.html?mbti=' + mbti; //쿼리 스트링
 }
 
 //답변을 틀릭했을 떄의 이벤트
